@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Options</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      button {
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Time Zones</h1>
+    <ul id="timeZoneList"></ul>
+    <input
+      type="text"
+      id="newTimeZone"
+      placeholder="IANA time zone name (e.g., America/New_York)"
+    />
+    <input type="text" id="newLabel" placeholder="Label (optional)" />
+    <button id="addButton">Add</button>
+    <p>
+      Enter IANA time zone names. See
+      <a
+        href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"
+        target="_blank"
+        >list of time zones</a
+      >
+      for reference.
+    </p>
+    <script src="options.js"></script>
+  </body>
+</html>

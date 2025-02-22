@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Clocks",
+    "version": "1.0",
+    "description": "Displays current time in selected time zones.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon64.png",
+        "128": "images/icon128.png"
+    },
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+X"
+        },
+        "description": "Open the time zone popup"
+      }
+    },
+    "homepage_url": "https://github.com/Tokunaga-X/TimeZone",
+    "author": "Tokunaga-X"
+  }
