@@ -1,4 +1,6 @@
-# World Clock Chrome Extension
+# World Clock Chrome 扩展
+
+[Switch to English](./README.md)
 
 这是一个简单的 Chrome 扩展，可以显示多个时区的当前时间。
 
